@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+ background-image: url('https://i.pinimg.com/originals/da/42/64/da4264a33bbcfcd56d3cb80e26430518.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<h1>normal image tag</h1>
+<img src="C:\Users\reshm\OneDrive\Desktop\reshma\btech.jpg",alt="here is ur image"></img>
+<h2 >Background Image</h2>
+    <p>In this example, the background image is specified for the div element.</p>
+    <p>But you can specify the background image for any HTML element.</p>
+    <p>Try it for a paragraph, heading, and more.</p>
+<center><h1>TCS Registration Form</h1></center>
+<form action="/action_page.php">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="roll no">Roll.No:</label><br>
+  <input type="text" id="Roll.No" name="rollno"><br>
+<h3>Parent details:</h3><br>
+       <label for="fathername">fatherName:</label>
+       <input type="text" id="fname" name="fname">
+       <label for="fathernumber">father.No:</label>
+       <input type="text" id="father.no" name="fnumber"><br>
+<br>
+  <label for="mothername">motherName:</label>
+  <input type="text" id="mname" name="mname">
+  <label for="fathernumber">mother.No:</label>
+  <input type="text" id="mother.no" name="mnumber"><br>
+<br>
+<h3><label for="Adharno">Adhar Number:</label></h3>
+  <input type="text" id="adhar.no" name="adhar.no"><br>
+<br><h3>Address:</h3>
+<textarea name="message" rows="10" cols="30"></textarea><br>
+<br>
+<h3>Qualification:</h3>
+<input type="checkbox" id="cgpa" name="cgpa" value="cgpa">
+  <label for="10CGPA">10th CGPA </label><br>
+  <input type="checkbox" id="cgpa" name="cgpa" value="12cgpa">
+  <label for="12CGPA">12th CGPA</label><br>
+<input type="checkbox" id="diploma" name="diploma" value="diploma">
+  <label for="diploma">Diploma</label><br>
+<label>   
+Course completed: 
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select><br> 
+<br>
+<h4>upload file here:</h4><br>
+<input type="file" id="myFile" name="filename">
+<br>
+<h4>upload image:</h4><br>
+<input type="file" id="myimage" name="filename">
+<center><input type="submit" value="Submit"></center>
+</form>
+</body>
+</html>
